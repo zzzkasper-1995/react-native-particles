@@ -1,4 +1,13 @@
 
+
+## Based 
+https://github.com/nanndoj/react-native-particles
+
+
+## What's added?
+
+props: interval - имеет не точное значение, а +/- 50%. Например: interval: 200 - значит новые элементы будут появляться в диапозоне 100-300 мс
+
 ## react-native-particles
 [![npm version](https://badge.fury.io/js/react-native-particles.svg)](https://badge.fury.io/js/react-native-particles)
 
