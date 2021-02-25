@@ -179,7 +179,7 @@ class BaseEmitter extends React.Component<BaseEmitterType, BaseEmitterState> {
 
     if (Date.now() - this.lastEmission < interval) return;
 
-    this.lastEmission = Date.now();
+    this.lastEmission = Date.now() + Math.floor(Math.random()*interval/2);
 
     const newParticles = onCalculate(
       this._getInitialPosition(),
